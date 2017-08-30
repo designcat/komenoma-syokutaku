@@ -1,9 +1,6 @@
-image: alpine:3.6
+image: alpine:latest
 pages:
   stage: deploy
-  script:
-    - mkdir public
-    - cp -r index.html instagram.txt images public
   artifacts:
     paths:
       - public

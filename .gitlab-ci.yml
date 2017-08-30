@@ -3,6 +3,6 @@ pages:
   stage: deploy
   artifacts:
     paths:
-      - public
+      - docs
   only:
     - master

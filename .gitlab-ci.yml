@@ -1,7 +1,7 @@
 image: alpine:latest
 pages:
   stage: deploy
-  script: ;
+  script: echo 0
   artifacts:
     paths:
       - docs
